@@ -193,6 +193,8 @@
                 replacement="mvn:io.swagger/swagger-jaxrs/${version.io.swagger}" mode="maven" />
         <bundle originalUri="mvn:io.swagger/swagger-models/[1.5,1.6)"
                 replacement="mvn:io.swagger/swagger-models/${version.io.swagger}" mode="maven" />
+        <bundle originalUri="mvn:org.eclipse.persistence/javax.persistence/[2,3)"
+                replacement="mvn:org.hibernate.javax.persistence/hibernate-jpa-2.1-api/${version.org.hibernate.javax.persistence}" mode="maven" />
     </bundleReplacements>
 
     <!-- A list of feature replacements that allows changing external feature definitions -->
